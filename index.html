@@ -11,16 +11,42 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <!-- Header -->
     <div class="row">
-      <h1 class="col-md-12 text-center" id="header">Slider</h1>
+      <p class="col-md-12 text-center" id="header">Why the Person is the Most <b>Productive</b></p>
     </div>
 
+    <!-- Subtitle -->
+    <div class="row">
+      <p class="col-md-12 text-center" id="subtitle"><i>Slide the icon all the way to the right to see why we are the best solution</i></p>
+    </div>
+
+    <!-- Range Slider -->
+    <div class="row">
+      <div class="col-md-12 noPadding">
+        <input id="rangeSlider" type="range" min="1" max="100" value="1" oninput="sliderChange(this.value)">
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Drop Down 1 -->
+      <div class="col-md-4 text-center" id="textDropDown1">
+        <p><b>Intelligent Automation</b> uses computer vision to compensate for system & color variations increasing productivity & effectiveness.</p>
+      </div>
+      <!-- Drop Down 1 -->
+      <div class="col-md-4 text-center" id="textDropDown2">
+        <p><b>Positioning Technology</b> automates application controls & fields regardless of their on-screen position.</p>
+      </div>
+      <!-- Drop Down 1 -->
+      <div class="col-md-4 text-center" id="textDropDown3">
+        <p><b>Custom Digital Front-ends</b> integrate front office agents & back-office automation</p>
+      </div>
+    </div>
 
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src='js/scripts.js'></script>

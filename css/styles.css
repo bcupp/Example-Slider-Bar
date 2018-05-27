@@ -1,0 +1,80 @@
+body {
+  /* Image courtesy of pixabay.com */
+  background-image: url("images/triangles.png");
+}
+
+#header {
+  color: white;
+  background: rgba(54, 25, 25, .5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 250;
+  font-size: 35px;
+}
+
+#subtitle {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+#rangeSlider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 200px;
+  background: black;
+}
+
+/* Mozilla CSS */
+#rangeSlider::-moz-range-track {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 200px;
+  background: black;
+}
+
+#rangeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  width: 200px;
+  height: 150px;
+  /* Image courtesy of pixelbay.com */
+  background: url(images/stickFigureWhite.png);
+  background-size:150px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+/* Mozilla CSS */
+#rangeSlider::-moz-range-thumb {
+  -webkit-appearance: none;
+  border: none;
+  width: 200px;
+  height: 150px;
+  /* Image courtesy of pixelbay.com */
+  background: url(images/stickFigureWhite.png);
+  background-size:150px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+#textDropDown1 {
+ display: none;
+ color: white;
+ padding-top: 25px;
+}
+
+#textDropDown2 {
+  display: none;
+  color: white;
+  padding-top: 25px;
+}
+
+#textDropDown3 {
+  display: none;
+  color: white;
+  padding-top: 25px;
+}
